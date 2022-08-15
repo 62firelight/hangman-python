@@ -3,7 +3,9 @@ A GUI-based implementation of the Hangman game written in Python as part of a hi
 
 Run `hangmanltFINAL.py` to start playing the game. 
 
-The game will randomly choose a word from a dictionary contained in the `hangmanwords.txt` file if it exists, or its own internal dictionary if `hangmanwords.txt` does not exist.
+The game will randomly choose a word from a dictionary contained in the [hangmanwords.txt](https://github.com/62firelight/hangman-python/blob/main/hangmanwords.txt) file if it exists, or its own internal dictionary if [hangmanwords.txt](https://github.com/62firelight/hangman-python/blob/main/hangmanwords.txt) does not exist.
+
+In theory, you can add your own dictionary by making your own `hangmanwords.txt` file as long as it adheres to the format in the repo's [hangmanwords.txt](https://github.com/62firelight/hangman-python/blob/main/hangmanwords.txt) (i.e. words separated by new lines). However, I have not tested the program with any file larger than [hangmanwords.txt](https://github.com/62firelight/hangman-python/blob/main/hangmanwords.txt), which contains about 40k words.
 
 ## Screenshots
 
