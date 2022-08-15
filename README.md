@@ -1,7 +1,9 @@
 # Hangman
 A GUI-based implementation of the Hangman game written in Python as part of a high school project.
 
-Run `hangmanltFINAL.py` to start playing the game.
+Run `hangmanltFINAL.py` to start playing the game. 
+
+The game will randomly choose a word from a dictionary contained in the `hangmanwords.txt` file if it exists, or its own internal dictionary if `hangmanwords.txt` does not exist.
 
 ## Screenshots
 
@@ -14,5 +16,5 @@ Run `hangmanltFINAL.py` to start playing the game.
 ![image](https://user-images.githubusercontent.com/54054879/184562479-73870741-3dd9-4584-8013-be95b0ab5d40.png)
 
 ## Notes
-* Pretty much all of the code is left unmodified from when the program was finalized in April 2018, along with all the (rather excessive) comments. However, I did comment out one debug statement that would print out the answer every round. 
+* Pretty much all of the code is left unmodified from when the program was finalized in April 2018, along with all the (rather excessive) comments. However, I have commented out a debug statement that would print out the answer every round, along with a win message called "You're winner." 
 * The `old` folder contains all of the older versions of the program. I had no idea that Git existed at the time, so I resorted to the rather painful method of saving the program as a new file with a different version number.
