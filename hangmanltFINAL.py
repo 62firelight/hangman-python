@@ -125,7 +125,7 @@ class HangmanGame: # Defining class
 		self.status = StringVar() # Define an empty status message variable for usage later on
 
 		# Pre-defined messages for the declare message variable
-		self.win_message_list = ["YOU WIN", "YOU'RE WINNER", "CONGRATULATIONS. YOU WIN", "YOU WIN. WELL DONE"] # List of win messages to randomly pick from
+		self.win_message_list = ["YOU WIN", "CONGRATULATIONS. YOU WIN", "YOU WIN. WELL DONE"] # List of win messages to randomly pick from
 																											   # when the player wins
 		self.lose_message = "YOU LOSE"
 
