@@ -204,7 +204,7 @@ class HangmanGame: # Defining class
 
 		self.hidden_word.set(self.hidden_word_l) # Set this equal to the hidden_letter 
 
-		print(self.random_word) # Debug message for easier testing
+		# print(self.random_word) # Debug message for easier testing
 
 	def check_word(self, guess): # Method to check the player's input
 								 # Take the player's input as a parameter, so that I don't have to type out a self. prefix every time
